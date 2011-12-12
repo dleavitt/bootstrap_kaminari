@@ -12,15 +12,25 @@ gem 'kaminari'
 
 ### Twitter Bootstrap
 
-- SCSS (Asset Pipeline): https://github.com/anjlab/bootstrap-rails
-- Less (Asset Pipeline): https://github.com/seyhunak/twitter-bootstrap-rails
+- SCSS Flavor (Asset Pipeline): https://github.com/anjlab/bootstrap-rails
+- Less Flavor (Asset Pipeline): https://github.com/seyhunak/twitter-bootstrap-rails
 - Vanilla: https://github.com/twitter/bootstrap
 
 ## Usage
 
 Add Kaminari and some form of Twitter Bootstrap to your project.
 
-Add this.
+Require `bootstrap_kaminari` in your Gemfile:
+
+``` ruby
+gem 'bootstrap_kaminari'
+```
+
+or
+
+``` ruby
+gem 'bootstrap_kaminari', :git => 'git://github.com/dleavitt/bootstrap_kaminari.git'
+```
 
 The theme is namespaced, so invoke it like this:
 
