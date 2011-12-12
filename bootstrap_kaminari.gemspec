@@ -7,6 +7,7 @@ require "bootstrap_kaminari/version"
 Gem::Specification.new do |s|
   s.name        = "bootstrap_kaminari"
   s.version     = BootstrapKaminari::VERSION
+  s.homepage    = "https://github.com/dleavitt/bootstrap_kaminari"
   s.authors     = ["Daniel Leavitt"]
   s.email       = ["daniel@hyfn.com"]
   s.summary     = "Twitter Bootstrap pagination theme for Kaminari."
