@@ -1,5 +1,10 @@
 module BootstrapKaminari
   module Rails
-    require "bootstrap_kaminari/engine"
+    module Bootstrap
+      module Kaminari
+        class Engine < ::Rails::Engine
+        end
+      end
+    end
   end
 end
