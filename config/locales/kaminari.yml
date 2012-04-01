@@ -2,6 +2,6 @@ en:
   views:
     pagination:
       bootstrap:
-        previous: "&larr; Prev"
-        next: "Next &rarr;"
+        previous: "&larr;"
+        next: "&rarr;"
         truncate: "..."
