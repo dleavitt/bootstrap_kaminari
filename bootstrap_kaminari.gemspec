@@ -17,6 +17,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", ">= 3.1.0"
   s.add_dependency "kaminari", ">= 0.12.4"
-  s.add_dependency "haml", ">= 3.1.0"
-  s.add_dependency "haml-rails"
 end
